@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\app",
+    "\\src\\app\\navbar",
     "\\src\\assets"
   ],
-  "SelectedNode": "\\src\\styles.css",
+  "SelectedNode": "\\src\\assets\\logoImage.png",
   "PreviewInSolutionExplorer": false
 }
