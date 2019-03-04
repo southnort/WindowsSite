@@ -1,11 +1,25 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<app-navbar id="navbar" class="navbar navbar-dark fixed-top bd-dark"></app-navbar>
-<br /><br /><br /><br />
+<app-navbar id="navbar"
+            class="navbar navbar-dark bg-dark">
+</app-navbar>
+
+<nav id="topmenu" class="navbar navbar-expand-lg navbar-light center">
+  <div class="col-lg-3 col-md-2 col-sm-hide col-xs-hide">
+    </div>
+
+    <a class="nav-link" routerLink="#">Пластиковые окна</a>
+    <a class="nav-link" routerLink="#">Деревянные окна</a>
+    <a class="nav-link" routerLink="#">Мебель лофт</a>
+    <a class="nav-link" routerLink="#">Контакты</a>
+    <a class="nav-link" routerLink="#">Информация</a>
+</nav>
+
+
 <div class="container-fluid">
   <div class="row" id="mainContent">
-    <app-sidebar class="col-sm-3"></app-sidebar>
-    <div class="col-sm-9" id="dashboard">
-      <p>Content</p>      
+    <app-sidebar id="sideBar">
+    </app-sidebar>
+    <div class="col-sm-9 ml-sm-auto col-md-10 pt-3" id="dashboard">
+      <p>Content</p>
     </div>
   </div>
 </div>

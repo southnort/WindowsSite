@@ -7,20 +7,21 @@ html{
 }
 
 body {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: #ffffff;
   color: #2e69e2;
   height: 100%;
 }
 
 
-a{
+a {
   color: #44a4cd;
+  text-decoration:underline;
 }
 
-a:hover{
-  color:#44a8cf;
-}
+  a:hover {
+    color: #44a8cf;    
+  }
 
 .shadow{
   box-shadow: 0 8px 12px rgba(0,0,0,0.2), 0 5px 6px rgba(0,0,0,0.3);
